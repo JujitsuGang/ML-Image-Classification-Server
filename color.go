@@ -28,3 +28,17 @@ func (c Color) Green(t string) {
 	fmt.Println(t)
 	fmt.Print("\x1b[0m") //defaultColor
 }
+
+//Yellow color
+func (c Color) Yellow(t string) {
+	fmt.Print("\x1b[33;1m") //yellow
+	fmt.Println(t)
+	fmt.Print("\x1b[0m") //defaultColor
+}
+
+//Blue color
+func (c Color) Blue(t string) {
+	fmt.Print("\x1b[34;1m") //blue
+	fmt.Println(t)
+	fmt.Print("\x1b[0m") //defaultColor
+}

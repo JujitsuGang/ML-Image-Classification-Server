@@ -5,4 +5,5 @@ import (
 	"net/http"
 )
 
-func check(err e
+func check(err error) {
+	if er

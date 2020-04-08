@@ -5,4 +5,4 @@ import (
 	"net/http"
 )
 
-fun
+func check(err e

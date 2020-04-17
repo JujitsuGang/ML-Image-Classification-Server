@@ -6,4 +6,5 @@ import (
 )
 
 func check(err error) {
-	if er
+	if err != nil {
+		

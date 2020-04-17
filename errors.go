@@ -7,4 +7,4 @@ import (
 
 func check(err error) {
 	if err != nil {
-		
+		fmt.Print

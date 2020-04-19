@@ -11,4 +11,4 @@ func check(err error) {
 	}
 }
 
-func checkAndReturn(
+func checkAndReturn(err error, 

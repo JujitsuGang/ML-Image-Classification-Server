@@ -11,4 +11,4 @@ func check(err error) {
 	}
 }
 
-func checkAndReturn(err error, w http.Resp
+func checkAndReturn(err error, w http.ResponseWriter, msg st

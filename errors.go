@@ -12,4 +12,5 @@ func check(err error) {
 }
 
 func checkAndReturn(err error, w http.ResponseWriter, msg string) {
-	if e
+	if err != nil {
+		fmt.

@@ -13,4 +13,4 @@ func check(err error) {
 
 func checkAndReturn(err error, w http.ResponseWriter, msg string) {
 	if err != nil {
-		fmt.
+		fmt.Fprintln(w,

@@ -6,4 +6,5 @@ import (
 	"image/jpeg"
 	"image/png"
 
-	"github.com/anthonyn
+	"github.com/anthonynsimon/bild/effect"
+	

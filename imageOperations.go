@@ -4,4 +4,6 @@ import (
 	"bytes"
 	"image"
 	"image/jpeg"
-	
+	"image/png"
+
+	"gi

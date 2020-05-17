@@ -7,4 +7,7 @@ import (
 	"image/png"
 
 	"github.com/anthonynsimon/bild/effect"
-	"github.com/nf
+	"github.com/nfnt/resize"
+)
+
+type

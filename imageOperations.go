@@ -10,4 +10,6 @@ import (
 	"github.com/nfnt/resize"
 )
 
-type imgRGBA [][]
+type imgRGBA [][]float64
+
+func dat

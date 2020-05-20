@@ -10,4 +10,4 @@ import (
 	"github.com/nfnt/resize"
 )
 
-type
+type imgRGBA [][]

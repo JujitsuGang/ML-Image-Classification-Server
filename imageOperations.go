@@ -12,4 +12,4 @@ import (
 
 type imgRGBA [][]float64
 
-func dat
+func dataToImage(d

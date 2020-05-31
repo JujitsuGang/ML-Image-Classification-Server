@@ -12,4 +12,5 @@ import (
 
 type imgRGBA [][]float64
 
-func dataToImage(data []byte, imageExtension string) (image.Image, e
+func dataToImage(data []byte, imageExtension string) (image.Image, error) {
+	reader 

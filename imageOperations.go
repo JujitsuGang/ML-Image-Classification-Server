@@ -14,4 +14,5 @@ type imgRGBA [][]float64
 
 func dataToImage(data []byte, imageExtension string) (image.Image, error) {
 	reader := bytes.NewReader(data)
-	var img imag
+	var img image.Image
+	var 

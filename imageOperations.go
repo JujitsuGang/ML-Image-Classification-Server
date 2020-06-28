@@ -16,4 +16,5 @@ func dataToImage(data []byte, imageExtension string) (image.Image, error) {
 	reader := bytes.NewReader(data)
 	var img image.Image
 	var err error
-	switch image
+	switch imageExtension {
+	

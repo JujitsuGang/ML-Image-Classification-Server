@@ -17,4 +17,5 @@ func dataToImage(data []byte, imageExtension string) (image.Image, error) {
 	var img image.Image
 	var err error
 	switch imageExtension {
+	case "png":
 	

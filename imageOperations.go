@@ -20,4 +20,4 @@ func dataToImage(data []byte, imageExtension string) (image.Image, error) {
 	case "png":
 		img, err = png.Decode(reader)
 	case "jpg", "jpeg":
-		img, err =
+		img, err = jpeg.Decod

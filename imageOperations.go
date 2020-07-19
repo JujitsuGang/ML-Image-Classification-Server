@@ -23,3 +23,5 @@ func dataToImage(data []byte, imageExtension string) (image.Image, error) {
 		img, err = jpeg.Decode(reader)
 	default:
 		img = nil
+	}
+	if err 

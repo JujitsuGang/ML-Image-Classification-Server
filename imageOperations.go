@@ -21,4 +21,5 @@ func dataToImage(data []byte, imageExtension string) (image.Image, error) {
 		img, err = png.Decode(reader)
 	case "jpg", "jpeg":
 		img, err = jpeg.Decode(reader)
-	defaul
+	default:
+		img = nil

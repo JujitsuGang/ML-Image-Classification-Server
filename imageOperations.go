@@ -26,4 +26,5 @@ func dataToImage(data []byte, imageExtension string) (image.Image, error) {
 	}
 	if err != nil {
 		return img, err
-	
+	}
+	return img, err

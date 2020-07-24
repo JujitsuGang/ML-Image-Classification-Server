@@ -28,3 +28,6 @@ func dataToImage(data []byte, imageExtension string) (image.Image, error) {
 		return img, err
 	}
 	return img, err
+}
+
+func image

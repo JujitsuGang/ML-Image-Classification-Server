@@ -30,4 +30,4 @@ func dataToImage(data []byte, imageExtension string) (image.Image, error) {
 	return img, err
 }
 
-func image
+func imageToDa

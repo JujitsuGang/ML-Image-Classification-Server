@@ -32,4 +32,5 @@ func dataToImage(data []byte, imageExtension string) (image.Image, error) {
 
 func imageToData(img image.Image, imageExtension string) ([]byte, error) {
 	buf := new(bytes.Buffer)
-	
+	var err error
+	sw

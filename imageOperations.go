@@ -34,4 +34,5 @@ func imageToData(img image.Image, imageExtension string) ([]byte, error) {
 	buf := new(bytes.Buffer)
 	var err error
 	switch imageExtension {
-	ca
+	case "png":
+	

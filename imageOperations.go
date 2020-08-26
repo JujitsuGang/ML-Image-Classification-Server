@@ -35,4 +35,4 @@ func imageToData(img image.Image, imageExtension string) ([]byte, error) {
 	var err error
 	switch imageExtension {
 	case "png":
-	
+		err = png.E

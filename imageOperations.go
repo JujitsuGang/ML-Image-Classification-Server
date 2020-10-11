@@ -38,4 +38,7 @@ func imageToData(img image.Image, imageExtension string) ([]byte, error) {
 		err = png.Encode(buf, img)
 	case "jpg", "jpeg":
 		err = jpeg.Encode(buf, img, nil)
-	def
+	default:
+		img = nil
+	}
+	

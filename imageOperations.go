@@ -41,4 +41,4 @@ func imageToData(img image.Image, imageExtension string) ([]byte, error) {
 	default:
 		img = nil
 	}
-	
+	if err != nil {

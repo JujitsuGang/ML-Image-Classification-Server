@@ -44,4 +44,7 @@ func imageToData(img image.Image, imageExtension string) ([]byte, error) {
 	if err != nil {
 		return buf.Bytes(), err
 	}
-	return buf.Bytes(
+	return buf.Bytes(), err
+}
+
+func

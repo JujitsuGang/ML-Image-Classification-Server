@@ -47,4 +47,4 @@ func imageToData(img image.Image, imageExtension string) ([]byte, error) {
 	return buf.Bytes(), err
 }
 
-func imageToPNG(img image.Image) ([]byte, 
+func imageToPNG(img image.Image) ([]byte, error) {

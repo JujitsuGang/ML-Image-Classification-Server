@@ -49,4 +49,5 @@ func imageToData(img image.Image, imageExtension string) ([]byte, error) {
 
 func imageToPNG(img image.Image) ([]byte, error) {
 	buf := new(bytes.Buffer)
-	va
+	var err error
+	err =

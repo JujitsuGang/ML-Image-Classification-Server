@@ -50,4 +50,4 @@ func imageToData(img image.Image, imageExtension string) ([]byte, error) {
 func imageToPNG(img image.Image) ([]byte, error) {
 	buf := new(bytes.Buffer)
 	var err error
-	err =
+	err = png.Encode

@@ -51,4 +51,7 @@ func imageToPNG(img image.Image) ([]byte, error) {
 	buf := new(bytes.Buffer)
 	var err error
 	err = png.Encode(buf, img)
-	return buf.Bytes()
+	return buf.Bytes(), err
+}
+
+func 

@@ -54,4 +54,4 @@ func imageToPNG(img image.Image) ([]byte, error) {
 	return buf.Bytes(), err
 }
 
-func imageToHistogram(img ima
+func imageToHistogram(img image.Image) []

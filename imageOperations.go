@@ -57,4 +57,4 @@ func imageToPNG(img image.Image) ([]byte, error) {
 func imageToHistogram(img image.Image) [][]float64 {
 	bounds := img.Bounds()
 
-	//genera
+	//generate th

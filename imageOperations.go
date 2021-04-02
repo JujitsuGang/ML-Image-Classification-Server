@@ -58,4 +58,4 @@ func imageToHistogram(img image.Image) [][]float64 {
 	bounds := img.Bounds()
 
 	//generate the histogram
-	var hist
+	var histogram [][]float

@@ -60,4 +60,4 @@ func imageToHistogram(img image.Image) [][]float64 {
 	//generate the histogram
 	var histogram [][]float64
 	for y := bounds.Min.Y; y < bounds.Max.Y; y++ {
-		f
+		for x := bound

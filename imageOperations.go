@@ -67,4 +67,7 @@ func imageToHistogram(img image.Image) [][]float64 {
 			histogram = append(histogram, pixel)
 		}
 	}
-	return
+	return histogram
+}
+
+func Re

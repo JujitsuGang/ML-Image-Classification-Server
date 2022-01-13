@@ -70,4 +70,4 @@ func imageToHistogram(img image.Image) [][]float64 {
 	return histogram
 }
 
-func Re
+func Resize(img im

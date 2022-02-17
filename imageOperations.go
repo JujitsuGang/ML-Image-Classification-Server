@@ -71,4 +71,4 @@ func imageToHistogram(img image.Image) [][]float64 {
 }
 
 func Resize(img image.Image) image.Image {
-	r := resize.Resize(uint(config.ImgWidth), uint(c
+	r := resize.Resize(uint(config.ImgWidth), uint(config.ImgHeigh)

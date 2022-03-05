@@ -74,4 +74,4 @@ func Resize(img image.Image) image.Image {
 	r := resize.Resize(uint(config.ImgWidth), uint(config.ImgHeigh), img, resize.Lanczos3)
 	return r
 }
-func EdgeDetection(img
+func EdgeDetection(img image.Image

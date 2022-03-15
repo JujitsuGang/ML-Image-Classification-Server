@@ -75,4 +75,4 @@ func Resize(img image.Image) image.Image {
 	return r
 }
 func EdgeDetection(img image.Image) image.Image {
-	r := effect.Edge
+	r := effect.EdgeDetection(i

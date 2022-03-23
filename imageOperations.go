@@ -80,4 +80,6 @@ func EdgeDetection(img image.Image) image.Image {
 }
 func Grayscale(img image.Image) image.Image {
 	r := effect.Grayscale(img)
-	r
+	return r
+}
+func Em

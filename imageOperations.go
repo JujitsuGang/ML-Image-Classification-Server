@@ -82,4 +82,5 @@ func Grayscale(img image.Image) image.Image {
 	r := effect.Grayscale(img)
 	return r
 }
-func Emboss(img image.Imag
+func Emboss(img image.Image) image.Image {
+	r 

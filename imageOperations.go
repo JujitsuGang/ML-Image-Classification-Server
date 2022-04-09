@@ -83,4 +83,4 @@ func Grayscale(img image.Image) image.Image {
 	return r
 }
 func Emboss(img image.Image) image.Image {
-	r 
+	r := effect.

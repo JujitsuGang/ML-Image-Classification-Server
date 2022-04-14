@@ -38,3 +38,17 @@ func isNeighbour(neighbours []Neighbour, dist float64, label string) []Neighbour
 	})
 
 	for i := 0; i < len(neighbours); i++ {
+		neighbours[i] = temp[i]
+	}
+
+	return neighbours
+}
+
+func getMapKey(dataset map[string]ImgDataset) string {
+	for k, _ := range dataset {
+		return k
+	}
+	return ""
+}
+
+type LabelCount struct {

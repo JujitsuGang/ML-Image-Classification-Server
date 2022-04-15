@@ -52,3 +52,13 @@ func getMapKey(dataset map[string]ImgDataset) string {
 }
 
 type LabelCount struct {
+	Label string
+	Count int
+}
+
+func averageLabel(neighbours []Neighbour) string {
+	labels := make(map[string]int)
+	for _, n := range neighbours {
+		labels[n.Label]++
+	}
+	//create array from map

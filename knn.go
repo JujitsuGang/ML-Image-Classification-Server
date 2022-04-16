@@ -62,3 +62,23 @@ func averageLabel(neighbours []Neighbour) string {
 		labels[n.Label]++
 	}
 	//create array from map
+	var a []LabelCount
+	for k, v := range labels {
+		a = append(a, LabelCount{k, v})
+	}
+	sort.Slice(a, func(i, j int) bool {
+		return a[i].Count > a[j].Count
+	})
+	fmt.Println(a)
+	//send the most appeared neighbour in k
+	return a[0].Label
+}
+
+func distNeighboursFromDataset(dataset Dataset, neighbours []Neighbour, input [][]float64) []Neighbour {
+	//check the complete dataset, checking if each entry is a k nearest neighbour
+	for l, v := range dataset {
+		for i := 0; i < len(v); i++ {
+			dNew := euclideanDist(v[i], input)
+			neighbours = isNeighbour(neighbours, dNew, l)
+		}
+	}

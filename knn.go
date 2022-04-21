@@ -82,3 +82,15 @@ func distNeighboursFromDataset(dataset Dataset, neighbours []Neighbour, input []
 			neighbours = isNeighbour(neighbours, dNew, l)
 		}
 	}
+	return neighbours
+}
+func knn(datasets []Dataset, imgInput image.Image) string {
+	k := 6
+	var neighbours []Neighbour
+	var neighboursED []Neighbour
+	/*
+		var neighboursG []Neighbour
+	*/
+
+	imgED := EdgeDetection(imgInput)
+	/*

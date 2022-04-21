@@ -94,3 +94,11 @@ func knn(datasets []Dataset, imgInput image.Image) string {
 
 	imgED := EdgeDetection(imgInput)
 	/*
+		imgG := Grayscale(imgInput)
+	*/
+
+	histogram := imageToHistogram(imgInput)
+	histogramED := imageToHistogram(imgED)
+	/*
+		histogramG := imageToHistogram(imgG)
+	*/

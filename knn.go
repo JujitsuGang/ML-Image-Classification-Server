@@ -102,3 +102,25 @@ func knn(datasets []Dataset, imgInput image.Image) string {
 	/*
 		histogramG := imageToHistogram(imgG)
 	*/
+
+	//get a key from map dataset, the key is a label
+	label := getMapKey(datasets[0])
+	//fill the first k neighbours
+	for i := 0; i < k; i++ {
+		neighbours = append(neighbours, Neighbour{euclideanDist(datasets[0][label][0], histogram), label})
+		neighboursED = append(neighboursED, Neighbour{euclideanDist(datasets[1][label][0], histogramED), label})
+		/*
+			neighboursG = append(neighboursG, Neighbour{euclideanDist(datasets[2][label][0], histogramG), label})
+		*/
+	}
+
+	neighbours = distNeighboursFromDataset(datasets[0], neighbours, histogram)
+	neighboursED = distNeighboursFromDataset(datasets[1], neighboursED, histogramED)
+	/*
+		neighboursG = distNeighboursFromDataset(datasets[2], neighboursG, histogramG)
+	*/
+
+	neighbours = append(neighbours, neighboursED...)
+	/*
+		neighbours = append(neighbours, neighboursG...)
+	*/

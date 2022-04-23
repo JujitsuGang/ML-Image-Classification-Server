@@ -124,3 +124,12 @@ func knn(datasets []Dataset, imgInput image.Image) string {
 	/*
 		neighbours = append(neighbours, neighboursG...)
 	*/
+
+	for i := 0; i < len(neighbours); i++ {
+		fmt.Print(neighbours[i].Label + " - ")
+		fmt.Println(neighbours[i].Dist)
+	}
+	//from the k nearest neighbours, get the more frequent neighbour
+	r := averageLabel(neighbours)
+	return r
+}

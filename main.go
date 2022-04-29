@@ -8,4 +8,4 @@ import (
 	"time"
 )
 
-//arra
+//array of datasets

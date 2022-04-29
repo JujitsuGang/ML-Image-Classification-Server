@@ -9,3 +9,4 @@ import (
 )
 
 //array of datasets
+var datasets []

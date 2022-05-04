@@ -9,4 +9,6 @@ import (
 )
 
 //array of datasets
-var datasets []
+var datasets []Dataset
+
+fun

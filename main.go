@@ -11,4 +11,5 @@ import (
 //array of datasets
 var datasets []Dataset
 
-fun
+func main() {
+	r

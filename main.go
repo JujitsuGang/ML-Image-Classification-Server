@@ -12,4 +12,6 @@ import (
 var datasets []Dataset
 
 func main() {
-	readConfig("./config.
+	readConfig("./config.json")
+
+	c.Cyan

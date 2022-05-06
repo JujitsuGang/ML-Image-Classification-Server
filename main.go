@@ -12,4 +12,4 @@ import (
 var datasets []Dataset
 
 func main() {
-	r
+	readConfig("./config.

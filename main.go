@@ -14,4 +14,4 @@ var datasets []Dataset
 func main() {
 	readConfig("./config.json")
 
-	c.Cyan("reading im
+	c.Cyan("reading images 

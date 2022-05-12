@@ -15,4 +15,5 @@ func main() {
 	readConfig("./config.json")
 
 	c.Cyan("reading images datasets")
-	tSta
+	tStart := time.Now()
+	datas

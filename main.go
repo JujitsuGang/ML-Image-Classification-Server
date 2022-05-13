@@ -16,4 +16,4 @@ func main() {
 
 	c.Cyan("reading images datasets")
 	tStart := time.Now()
-	datas
+	datasets = readData

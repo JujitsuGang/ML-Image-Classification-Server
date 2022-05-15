@@ -17,3 +17,4 @@ func main() {
 	c.Cyan("reading images datasets")
 	tStart := time.Now()
 	datasets = readDataset("./dataset")
+	fmt.Print("time s

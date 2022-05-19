@@ -18,4 +18,5 @@ func main() {
 	tStart := time.Now()
 	datasets = readDataset("./dataset")
 	fmt.Print("time spend reading images: ")
-	fmt.Println(time.Sinc
+	fmt.Println(time.Since(tStart))
+	fmt.P

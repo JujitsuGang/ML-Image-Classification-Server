@@ -19,4 +19,4 @@ func main() {
 	datasets = readDataset("./dataset")
 	fmt.Print("time spend reading images: ")
 	fmt.Println(time.Since(tStart))
-	fmt.Println("total folders scanned: " + strco
+	fmt.Println("total folders scanned: " + strconv.Itoa(len

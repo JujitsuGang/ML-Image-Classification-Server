@@ -21,4 +21,5 @@ func main() {
 	fmt.Println(time.Since(tStart))
 	fmt.Println("total folders scanned: " + strconv.Itoa(len(datasets[0])))
 
-	nu
+	numImages := 0
+	f

@@ -23,4 +23,4 @@ func main() {
 
 	numImages := 0
 	for _, v := range datasets[0] {
-		num
+		numImages = 

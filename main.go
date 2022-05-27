@@ -22,4 +22,5 @@ func main() {
 	fmt.Println("total folders scanned: " + strconv.Itoa(len(datasets[0])))
 
 	numImages := 0
-	for _, v := ran
+	for _, v := range datasets[0] {
+		num

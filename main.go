@@ -23,4 +23,6 @@ func main() {
 
 	numImages := 0
 	for _, v := range datasets[0] {
-		numImages = numImages + le
+		numImages = numImages + len(v)
+	}
+	c.Cyan

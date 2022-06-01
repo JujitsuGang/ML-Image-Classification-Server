@@ -25,4 +25,4 @@ func main() {
 	for _, v := range datasets[0] {
 		numImages = numImages + len(v)
 	}
-	c.Cyan("total images in
+	c.Cyan("total images in dataset

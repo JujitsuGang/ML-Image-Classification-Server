@@ -25,4 +25,6 @@ func main() {
 	for _, v := range datasets[0] {
 		numImages = numImages + len(v)
 	}
-	c.Cyan("total images in dataset: " + strconv.Itoa(numImages)
+	c.Cyan("total images in dataset: " + strconv.Itoa(numImages))
+
+	//we have

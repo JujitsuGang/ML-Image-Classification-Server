@@ -28,3 +28,4 @@ func main() {
 	c.Cyan("total images in dataset: " + strconv.Itoa(numImages))
 
 	//we have the images in the dataset variable
+	//now, can take

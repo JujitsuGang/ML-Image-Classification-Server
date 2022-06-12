@@ -30,4 +30,4 @@ func main() {
 	//we have the images in the dataset variable
 	//now, can take images
 
-	c.Green("
+	c.Green("server running")

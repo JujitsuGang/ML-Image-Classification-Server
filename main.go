@@ -31,4 +31,5 @@ func main() {
 	//now, can take images
 
 	c.Green("server running")
-	router := NewRou
+	router := NewRouter()
+	l

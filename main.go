@@ -32,4 +32,4 @@ func main() {
 
 	c.Green("server running")
 	router := NewRouter()
-	l
+	log.Fatal(

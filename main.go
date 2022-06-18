@@ -32,4 +32,5 @@ func main() {
 
 	c.Green("server running")
 	router := NewRouter()
-	log.Fatal(http.ListenAndServe(":"+config.ServerPort, rou
+	log.Fatal(http.ListenAndServe(":"+config.ServerPort, router))
+}

@@ -6,4 +6,5 @@ import (
 	"io/ioutil"
 )
 
-type Conf
+type Config struct {
+	Serve

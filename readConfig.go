@@ -6,3 +6,4 @@ import (
 	"io/ioutil"
 )
 
+type Conf

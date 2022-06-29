@@ -8,4 +8,4 @@ import (
 
 type Config struct {
 	ServerIP   string   `json:"serverIP"`
-	Server
+	ServerPort string   `js

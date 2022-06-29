@@ -7,4 +7,4 @@ import (
 )
 
 type Config struct {
-	ServerIP   string 
+	ServerIP   string   `json:"serverIP

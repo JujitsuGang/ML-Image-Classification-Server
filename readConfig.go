@@ -7,4 +7,4 @@ import (
 )
 
 type Config struct {
-	Serve
+	ServerIP   string 

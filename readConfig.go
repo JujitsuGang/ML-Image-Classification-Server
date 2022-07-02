@@ -9,4 +9,4 @@ import (
 type Config struct {
 	ServerIP   string   `json:"serverIP"`
 	ServerPort string   `json:"serverPort"`
-	ImgWidth   int      `json:
+	ImgWidth   int      `json:"imgWidth"`

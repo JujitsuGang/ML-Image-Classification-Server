@@ -13,4 +13,6 @@ type Config struct {
 	ImgHeigh   int      `json:"imgHeigh"`
 }
 
-var config Conf
+var config Config
+
+func readConfi

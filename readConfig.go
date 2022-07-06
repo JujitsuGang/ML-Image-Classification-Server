@@ -13,4 +13,4 @@ type Config struct {
 	ImgHeigh   int      `json:"imgHeigh"`
 }
 
-var
+var config Conf

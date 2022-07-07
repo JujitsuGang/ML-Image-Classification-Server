@@ -15,4 +15,5 @@ type Config struct {
 
 var config Config
 
-func readConfig(path string
+func readConfig(path string) {
+	file,

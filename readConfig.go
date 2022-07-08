@@ -17,4 +17,5 @@ var config Config
 
 func readConfig(path string) {
 	file, err := ioutil.ReadFile(path)
-	if err 
+	if err != nil {
+		fm

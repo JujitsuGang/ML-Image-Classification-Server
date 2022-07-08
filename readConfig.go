@@ -16,4 +16,4 @@ type Config struct {
 var config Config
 
 func readConfig(path string) {
-	file, err := iout
+	file, err := ioutil.ReadFile(pat

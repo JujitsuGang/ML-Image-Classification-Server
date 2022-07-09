@@ -18,4 +18,4 @@ var config Config
 func readConfig(path string) {
 	file, err := ioutil.ReadFile(path)
 	if err != nil {
-		fm
+		fmt.Println("error:

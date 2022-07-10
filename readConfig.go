@@ -20,4 +20,4 @@ func readConfig(path string) {
 	if err != nil {
 		fmt.Println("error: ", err)
 	}
-	
+	content := str

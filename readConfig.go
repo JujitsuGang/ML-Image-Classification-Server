@@ -21,4 +21,4 @@ func readConfig(path string) {
 		fmt.Println("error: ", err)
 	}
 	content := string(file)
-	json.Unm
+	json.Unmarshal([]byte

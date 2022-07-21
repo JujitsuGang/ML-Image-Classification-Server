@@ -2,4 +2,5 @@ package main
 
 import (
 	"fmt"
-	"i
+	"image"
+	"io/ioutil"

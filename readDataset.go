@@ -6,3 +6,6 @@ import (
 	"io/ioutil"
 	"strconv"
 	"strings"
+)
+
+//each image is 

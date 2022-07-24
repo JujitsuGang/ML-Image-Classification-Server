@@ -8,4 +8,4 @@ import (
 	"strings"
 )
 
-//each image is 
+//each image is [][]float64, is 

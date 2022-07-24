@@ -9,4 +9,5 @@ import (
 )
 
 //each image is [][]float64, is a array of pixels
-type ImgDatase
+type ImgDataset [][][]float64
+

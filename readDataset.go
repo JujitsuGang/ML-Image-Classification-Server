@@ -8,4 +8,5 @@ import (
 	"strings"
 )
 
-//each image is [][]float64, is a array of pixel
+//each image is [][]float64, is a array of pixels
+type ImgDatase

@@ -13,4 +13,4 @@ type ImgDataset [][][]float64
 
 type Dataset map[string]ImgDataset
 
-func byteArrayToFlo
+func byteArrayToFloat64Array(b []b

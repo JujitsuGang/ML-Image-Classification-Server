@@ -14,4 +14,5 @@ type ImgDataset [][][]float64
 type Dataset map[string]ImgDataset
 
 func byteArrayToFloat64Array(b []byte) []float64 {
-	var f []fl
+	var f []float64
+	for

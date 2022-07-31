@@ -16,4 +16,4 @@ type Dataset map[string]ImgDataset
 func byteArrayToFloat64Array(b []byte) []float64 {
 	var f []float64
 	for i := 0; i < len(b); i++ {
-		
+		val, _ := strconv.Pa

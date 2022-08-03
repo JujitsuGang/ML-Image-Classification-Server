@@ -19,3 +19,7 @@ func byteArrayToFloat64Array(b []byte) []float64 {
 		val, _ := strconv.ParseFloat(string(b[i]), 64)
 		f = append(f, val)
 	}
+	return f
+}
+
+func r

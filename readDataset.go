@@ -22,4 +22,4 @@ func byteArrayToFloat64Array(b []byte) []float64 {
 	return f
 }
 
-func readImage(path string) image.I
+func readImage(path string) image.Image {

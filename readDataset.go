@@ -23,3 +23,4 @@ func byteArrayToFloat64Array(b []byte) []float64 {
 }
 
 func readImage(path string) image.Image {
+	//open image

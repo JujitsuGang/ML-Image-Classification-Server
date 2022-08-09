@@ -27,4 +27,4 @@ func readImage(path string) image.Image {
 	dat, err := ioutil.ReadFile(path)
 	check(err)
 
-	pathSplited := strings.Split
+	pathSplited := strings.Split(path, "."

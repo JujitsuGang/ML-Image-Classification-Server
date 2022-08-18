@@ -32,4 +32,4 @@ func readImage(path string) image.Image {
 	imageRaw, err := dataToImage(dat, imageExtension)
 	check(err)
 
-	//resize
+	//resize the image to st

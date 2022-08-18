@@ -29,4 +29,5 @@ func readImage(path string) image.Image {
 
 	pathSplited := strings.Split(path, ".")
 	imageExtension := pathSplited[len(pathSplited)-1]
-	imageRaw, err := dataToImage(dat, imageExte
+	imageRaw, err := dataToImage(dat, imageExtension)
+	check(

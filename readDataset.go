@@ -35,3 +35,6 @@ func readImage(path string) image.Image {
 	//resize the image to standard size
 	image := Resize(imageRaw)
 
+	return image
+	/*
+	

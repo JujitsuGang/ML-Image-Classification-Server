@@ -37,4 +37,4 @@ func readImage(path string) image.Image {
 
 	return image
 	/*
-	
+		//convert the imag

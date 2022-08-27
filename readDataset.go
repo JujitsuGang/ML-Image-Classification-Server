@@ -38,4 +38,5 @@ func readImage(path string) image.Image {
 	return image
 	/*
 		//convert the image to histogram(RGBA)
-		histogram := image
+		histogram := imageToHistogram(image)
+		r

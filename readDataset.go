@@ -42,4 +42,4 @@ func readImage(path string) image.Image {
 		return histogram
 	*/
 }
-func rea
+func readDataset(path string

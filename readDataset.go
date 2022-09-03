@@ -43,4 +43,4 @@ func readImage(path string) image.Image {
 	*/
 }
 func readDataset(path string) []Dataset {
-	var resultDa
+	var resultDatasets []

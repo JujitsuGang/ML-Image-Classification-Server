@@ -44,4 +44,5 @@ func readImage(path string) image.Image {
 }
 func readDataset(path string) []Dataset {
 	var resultDatasets []Dataset
-	dataset := make(Da
+	dataset := make(Dataset)
+	datase

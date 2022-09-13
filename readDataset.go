@@ -47,4 +47,4 @@ func readDataset(path string) []Dataset {
 	dataset := make(Dataset)
 	datasetED := make(Dataset)
 	/*
-		datasetG
+		datasetG := make(Datase

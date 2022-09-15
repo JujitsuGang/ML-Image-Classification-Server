@@ -50,4 +50,4 @@ func readDataset(path string) []Dataset {
 		datasetG := make(Dataset)
 	*/
 
-	fol
+	folders, _ := 

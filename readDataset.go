@@ -51,4 +51,4 @@ func readDataset(path string) []Dataset {
 	*/
 
 	folders, _ := ioutil.ReadDir(path)
-	for _, fold
+	for _, folder := range f

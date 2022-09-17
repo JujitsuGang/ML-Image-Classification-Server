@@ -52,4 +52,4 @@ func readDataset(path string) []Dataset {
 
 	folders, _ := ioutil.ReadDir(path)
 	for _, folder := range folders {
-		fmt.Println(fol
+		fmt.Println(folder.Name()

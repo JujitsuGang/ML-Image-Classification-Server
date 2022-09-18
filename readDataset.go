@@ -52,4 +52,6 @@ func readDataset(path string) []Dataset {
 
 	folders, _ := ioutil.ReadDir(path)
 	for _, folder := range folders {
-		fmt.Println(folder.Name()
+		fmt.Println(folder.Name())
+
+		var imgD

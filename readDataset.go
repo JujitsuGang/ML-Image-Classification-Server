@@ -54,4 +54,5 @@ func readDataset(path string) []Dataset {
 	for _, folder := range folders {
 		fmt.Println(folder.Name())
 
-		var imgD
+		var imgDataset ImgDataset
+	

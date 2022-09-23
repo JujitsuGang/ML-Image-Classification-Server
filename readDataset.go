@@ -57,4 +57,4 @@ func readDataset(path string) []Dataset {
 		var imgDataset ImgDataset
 		var imgDatasetED ImgDataset
 		/*
-		
+			var imgDat

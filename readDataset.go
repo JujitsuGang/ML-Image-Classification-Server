@@ -55,4 +55,6 @@ func readDataset(path string) []Dataset {
 		fmt.Println(folder.Name())
 
 		var imgDataset ImgDataset
-		var imgDatasetED ImgDat
+		var imgDatasetED ImgDataset
+		/*
+		

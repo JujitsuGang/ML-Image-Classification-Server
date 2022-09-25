@@ -60,4 +60,4 @@ func readDataset(path string) []Dataset {
 			var imgDatasetG ImgDataset
 		*/
 
-		folde
+		folderFiles, _ 

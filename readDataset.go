@@ -60,4 +60,5 @@ func readDataset(path string) []Dataset {
 			var imgDatasetG ImgDataset
 		*/
 
-		folderFiles, _ := ioutil.ReadDir(path + "/" + folder.Name()
+		folderFiles, _ := ioutil.ReadDir(path + "/" + folder.Name())
+		for _, file := 

@@ -61,4 +61,5 @@ func readDataset(path string) []Dataset {
 		*/
 
 		folderFiles, _ := ioutil.ReadDir(path + "/" + folder.Name())
-		for _, file := range folde
+		for _, file := range folderFiles {
+			//ge

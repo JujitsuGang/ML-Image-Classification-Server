@@ -62,4 +62,4 @@ func readDataset(path string) []Dataset {
 
 		folderFiles, _ := ioutil.ReadDir(path + "/" + folder.Name())
 		for _, file := range folderFiles {
-			//get the image as 
+			//get the image as original

@@ -64,4 +64,4 @@ func readDataset(path string) []Dataset {
 		for _, file := range folderFiles {
 			//get the image as original
 			image := readImage(path + "/" + folder.Name() + "/" + file.Name())
-			histogram
+			histogram := imageToHisto

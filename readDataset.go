@@ -67,4 +67,4 @@ func readDataset(path string) []Dataset {
 			histogram := imageToHistogram(image)
 			imgDataset = append(imgDataset, histogram)
 
-			
+			//get the im

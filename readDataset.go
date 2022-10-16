@@ -65,4 +65,6 @@ func readDataset(path string) []Dataset {
 			//get the image as original
 			image := readImage(path + "/" + folder.Name() + "/" + file.Name())
 			histogram := imageToHistogram(image)
-			imgDataset = append(imgDataset, 
+			imgDataset = append(imgDataset, histogram)
+
+			

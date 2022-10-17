@@ -67,4 +67,4 @@ func readDataset(path string) []Dataset {
 			histogram := imageToHistogram(image)
 			imgDataset = append(imgDataset, histogram)
 
-			//get the image with EdgeD
+			//get the image with EdgeDetection fil

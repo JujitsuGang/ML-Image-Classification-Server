@@ -69,3 +69,4 @@ func readDataset(path string) []Dataset {
 
 			//get the image with EdgeDetection filter
 			imageED := EdgeDetection(image)
+			histogramED :=

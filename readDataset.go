@@ -73,4 +73,5 @@ func readDataset(path string) []Dataset {
 			imgDatasetED = append(imgDatasetED, histogramED)
 
 			/*
-				//get the image with
+				//get the image with Grayscale filter
+	

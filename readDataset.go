@@ -73,4 +73,4 @@ func readDataset(path string) []Dataset {
 			imgDatasetED = append(imgDatasetED, histogramED)
 
 			/*
-		
+				//get the image with

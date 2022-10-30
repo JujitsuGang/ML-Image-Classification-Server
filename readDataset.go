@@ -74,4 +74,5 @@ func readDataset(path string) []Dataset {
 
 			/*
 				//get the image with Grayscale filter
-				imageG := Gray
+				imageG := Grayscale(image)
+	

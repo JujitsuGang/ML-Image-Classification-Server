@@ -75,4 +75,4 @@ func readDataset(path string) []Dataset {
 			/*
 				//get the image with Grayscale filter
 				imageG := Grayscale(image)
-				histogramG := imageToHi
+				histogramG := imageToHistogram(ima

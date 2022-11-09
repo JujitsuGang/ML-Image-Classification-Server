@@ -79,3 +79,5 @@ func readDataset(path string) []Dataset {
 				imgDatasetG = append(imgDatasetG, histogramG)
 			*/
 		}
+
+		//add the

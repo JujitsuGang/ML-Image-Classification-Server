@@ -80,4 +80,4 @@ func readDataset(path string) []Dataset {
 			*/
 		}
 
-		//add the foldername to
+		//add the foldername to the Dataset map

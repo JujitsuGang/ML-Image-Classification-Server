@@ -82,4 +82,6 @@ func readDataset(path string) []Dataset {
 
 		//add the foldername to the Dataset map
 		dataset[folder.Name()] = imgDataset
-		datasetED[folder.Name()] = im
+		datasetED[folder.Name()] = imgDatasetED
+		/*
+	

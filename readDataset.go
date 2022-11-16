@@ -84,4 +84,4 @@ func readDataset(path string) []Dataset {
 		dataset[folder.Name()] = imgDataset
 		datasetED[folder.Name()] = imgDatasetED
 		/*
-	
+			datasetG[

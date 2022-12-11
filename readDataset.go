@@ -93,4 +93,5 @@ func readDataset(path string) []Dataset {
 	/*
 		resultDatasets = append(resultDatasets, datasetG)
 	*/
-	return resultD
+	return resultDatasets
+}

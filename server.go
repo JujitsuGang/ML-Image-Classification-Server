@@ -9,4 +9,5 @@ import (
 	"github.com/gorilla/mux"
 )
 
-type Imag
+type ImageModel struct {
+	File

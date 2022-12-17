@@ -10,4 +10,4 @@ import (
 )
 
 type ImageModel struct {
-	File
+	File []byte `js

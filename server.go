@@ -13,4 +13,5 @@ type ImageModel struct {
 	File []byte `json:"file"`
 }
 
-type R
+type Route struct {
+	

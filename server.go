@@ -10,4 +10,7 @@ import (
 )
 
 type ImageModel struct {
-	File []byte `js
+	File []byte `json:"file"`
+}
+
+type R

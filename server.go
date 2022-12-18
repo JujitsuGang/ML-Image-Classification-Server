@@ -15,4 +15,5 @@ type ImageModel struct {
 
 type Route struct {
 	Name        string
-	Meth
+	Method      string
+	Pat

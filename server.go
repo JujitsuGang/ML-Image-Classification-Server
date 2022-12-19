@@ -16,4 +16,4 @@ type ImageModel struct {
 type Route struct {
 	Name        string
 	Method      string
-	Pat
+	Pattern     s

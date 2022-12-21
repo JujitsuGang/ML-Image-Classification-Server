@@ -17,4 +17,6 @@ type Route struct {
 	Name        string
 	Method      string
 	Pattern     string
-	HandlerFunc http.Hand
+	HandlerFunc http.HandlerFunc
+}
+type Rout

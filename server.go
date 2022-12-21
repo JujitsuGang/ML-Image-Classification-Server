@@ -19,4 +19,6 @@ type Route struct {
 	Pattern     string
 	HandlerFunc http.HandlerFunc
 }
-type Rout
+type Routes []Route
+
+var

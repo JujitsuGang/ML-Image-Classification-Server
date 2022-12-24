@@ -23,4 +23,5 @@ type Routes []Route
 
 var routes = Routes{
 	Route{
-		"In
+		"Index",
+		"GET",

@@ -21,4 +21,4 @@ type Route struct {
 }
 type Routes []Route
 
-var
+var routes = Routes

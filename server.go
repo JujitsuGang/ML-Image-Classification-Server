@@ -25,3 +25,5 @@ var routes = Routes{
 	Route{
 		"Index",
 		"GET",
+		"/",
+		Inde

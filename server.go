@@ -29,4 +29,5 @@ var routes = Routes{
 		Index,
 	},
 	Route{
-		"New
+		"NewImage",
+		

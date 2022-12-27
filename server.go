@@ -28,4 +28,5 @@ var routes = Routes{
 		"/",
 		Index,
 	},
-	Rou
+	Route{
+		"New

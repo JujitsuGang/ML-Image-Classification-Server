@@ -31,4 +31,8 @@ var routes = Routes{
 	Route{
 		"NewImage",
 		"POST",
-		"/image"
+		"/image",
+		NewImage,
+	},
+}
+

@@ -36,3 +36,4 @@ var routes = Routes{
 	},
 }
 
+func Logger(inner h

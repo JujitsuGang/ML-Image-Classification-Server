@@ -36,4 +36,5 @@ var routes = Routes{
 	},
 }
 
-func Logger(inner http.Handler, name string) http.Handler
+func Logger(inner http.Handler, name string) http.Handler {
+	return ht

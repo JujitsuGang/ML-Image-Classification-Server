@@ -37,4 +37,4 @@ var routes = Routes{
 }
 
 func Logger(inner http.Handler, name string) http.Handler {
-	return ht
+	return http.HandlerFunc(

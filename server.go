@@ -42,4 +42,5 @@ func Logger(inner http.Handler, name string) http.Handler {
 
 		inner.ServeHTTP(w, r)
 
-		log.Pr
+		log.Printf(
+			"%s\

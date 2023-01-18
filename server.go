@@ -45,4 +45,4 @@ func Logger(inner http.Handler, name string) http.Handler {
 		log.Printf(
 			"%s\t%s\t%s\t%s",
 			r.Method,
-			
+			r.Request

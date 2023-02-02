@@ -47,3 +47,4 @@ func Logger(inner http.Handler, name string) http.Handler {
 			r.Method,
 			r.RequestURI,
 			name,
+			time.Since(sta

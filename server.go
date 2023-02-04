@@ -51,4 +51,5 @@ func Logger(inner http.Handler, name string) http.Handler {
 		)
 	})
 }
-func NewRouter() *mux.Rou
+func NewRouter() *mux.Router {
+	router

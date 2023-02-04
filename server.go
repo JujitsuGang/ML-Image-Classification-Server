@@ -51,4 +51,4 @@ func Logger(inner http.Handler, name string) http.Handler {
 		)
 	})
 }
-func NewRouter()
+func NewRouter() *mux.Rou

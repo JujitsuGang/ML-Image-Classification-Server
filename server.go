@@ -52,4 +52,4 @@ func Logger(inner http.Handler, name string) http.Handler {
 	})
 }
 func NewRouter() *mux.Router {
-	router
+	router := mux.

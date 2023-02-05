@@ -52,4 +52,5 @@ func Logger(inner http.Handler, name string) http.Handler {
 	})
 }
 func NewRouter() *mux.Router {
-	router := mux.NewRouter().StrictSlash(tru
+	router := mux.NewRouter().StrictSlash(true)
+	for 

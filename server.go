@@ -53,4 +53,4 @@ func Logger(inner http.Handler, name string) http.Handler {
 }
 func NewRouter() *mux.Router {
 	router := mux.NewRouter().StrictSlash(true)
-	for 
+	for _, route := 

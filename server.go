@@ -60,4 +60,4 @@ func NewRouter() *mux.Router {
 
 		router.
 			Methods(route.Method).
-			P
+			Path(route.Patte

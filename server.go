@@ -65,3 +65,6 @@ func NewRouter() *mux.Router {
 			Handler(handler)
 	}
 	return router
+}
+
+func Index(w http

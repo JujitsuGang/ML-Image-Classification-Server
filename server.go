@@ -67,4 +67,4 @@ func NewRouter() *mux.Router {
 	return router
 }
 
-func Index(w http
+func Index(w http.ResponseWriter, r *

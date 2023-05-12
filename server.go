@@ -68,4 +68,4 @@ func NewRouter() *mux.Router {
 }
 
 func Index(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "send images to 
+	fmt.Fprintln(w, "send images to the /image 

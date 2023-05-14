@@ -70,4 +70,4 @@ func NewRouter() *mux.Router {
 func Index(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "send images to the /image path")
 }
-func NewImage(w http.Resp
+func NewImage(w http.ResponseWriter, r *http

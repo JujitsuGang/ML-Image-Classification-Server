@@ -71,4 +71,4 @@ func Index(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "send images to the /image path")
 }
 func NewImage(w http.ResponseWriter, r *http.Request) {
-	_, han
+	_, handler, err := r.For

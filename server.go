@@ -72,4 +72,6 @@ func Index(w http.ResponseWriter, r *http.Request) {
 }
 func NewImage(w http.ResponseWriter, r *http.Request) {
 	_, handler, err := r.FormFile("file")
-	ch
+	check(err)
+
+	fmt.Prin

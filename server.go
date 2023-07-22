@@ -74,4 +74,4 @@ func NewImage(w http.ResponseWriter, r *http.Request) {
 	_, handler, err := r.FormFile("file")
 	check(err)
 
-	fmt.Println(handler
+	fmt.Println(handler.Filename)

@@ -75,3 +75,4 @@ func NewImage(w http.ResponseWriter, r *http.Request) {
 	check(err)
 
 	fmt.Println(handler.Filename)
+	img := read

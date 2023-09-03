@@ -76,4 +76,5 @@ func NewImage(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Println(handler.Filename)
 	img := readImage(handler.Filename)
-	//histogram := imageToHisto
+	//histogram := imageToHistogram(img)
+	result :

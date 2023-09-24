@@ -80,4 +80,4 @@ func NewImage(w http.ResponseWriter, r *http.Request) {
 	result := knn(datasets, img)
 
 	c.Purple("seems to be a " + result)
-	fmt.Fprintl
+	fmt.Fprintln(w, "seem

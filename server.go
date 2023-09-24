@@ -79,4 +79,5 @@ func NewImage(w http.ResponseWriter, r *http.Request) {
 	//histogram := imageToHistogram(img)
 	result := knn(datasets, img)
 
-	c.Purple("seems to be a " + r
+	c.Purple("seems to be a " + result)
+	fmt.Fprintl

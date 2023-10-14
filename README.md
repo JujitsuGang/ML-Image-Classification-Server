@@ -10,3 +10,21 @@ A server-side application for image classification using K-Nearest Neighbours (K
 - Calculated euclidean distances for input images
 - Applies KNN (K-Nearest Neighbours algorithm) to classify images
 - The server then returns the result of the classification, i.e., the label of the object in the image
+
+
+## Instructions
+
+Put the image dataset in /dataset directory. Each subdirectory should contain images of a single class or category as shown below:
+
+```
+dataset/
+    leopard/
+        img01.png
+        img02.png
+        img03.png
+        ...
+    laptop/
+        img01.png
+        img02.png
+        ...
+    camera/

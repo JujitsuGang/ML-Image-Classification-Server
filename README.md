@@ -28,3 +28,14 @@ dataset/
         img02.png
         ...
     camera/
+        img01.png
+        img02.png
+        ...
+```
+
+To run the server:
+```
+    >./ML-Image-Classification-Server
+```
+
+Next, perform requests with new images to get a response from the server classifying them:

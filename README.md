@@ -48,3 +48,20 @@ The server will return a response like:
 ```
     seems to be a leopard
 ```
+
+You can perform tests using the test.sh file:
+```
+bash test.sh
+```
+
+## Useful commands
+
+To send files over ssh:
+```
+scp dataset.tar.gz root@SERVERIP:/root/ML-Image-Classification-Server
+```
+
+To untarr files on the server:
+```
+tar -xvzf dataset.tar.gz
+```

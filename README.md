@@ -39,3 +39,12 @@ To run the server:
 ```
 
 Next, perform requests with new images to get a response from the server classifying them:
+
+```
+curl -F file=@./testimage.png http://127.0.0.1:3055/image
+```
+
+The server will return a response like:
+```
+    seems to be a leopard
+```
